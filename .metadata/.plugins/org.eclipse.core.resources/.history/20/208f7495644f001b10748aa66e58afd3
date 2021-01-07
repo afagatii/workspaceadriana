@@ -1,0 +1,36 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisaoSimples {
+
+	public static void main(String[] args) {
+		String Nome = JOptionPane.showInputDialog("Nome:");
+		float idade1 = Float.parseFloat(JOptionPane.showInputDialog("Idade1"));
+		
+		if (idade1>70 ) {
+			System.out.println("VotoFacultativo");
+		}
+		if (idade1>16 && idade1<18) {
+			System.out.println("Voto Facultativo");
+		}
+		if (idade1 < 16) {
+			System.out.println("Não vota");
+		}
+		//System.out.println("Idade:" + Idade1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

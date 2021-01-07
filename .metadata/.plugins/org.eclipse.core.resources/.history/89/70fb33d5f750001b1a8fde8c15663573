@@ -1,0 +1,29 @@
+package br.com.concessionariaxyz.modelo;
+
+public class Veiculo {
+	private String montadora;
+	private String modelo;
+	private float velocidadeMaxima;
+	private float velocidadeAtual;
+	private boolean status;
+	private float valor;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

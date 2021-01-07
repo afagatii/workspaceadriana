@@ -1,0 +1,58 @@
+package br.com.concessionariaxyz.modelo;
+
+public class Veiculo {
+	private String montadora;
+	private String modelo;
+	private float velocidadeMaxima;
+	private float velocidadeAtual;
+	private boolean status;
+	private float valor;
+	//sintaxe dos metodos
+	//<modificador> <tipo do retorno> <nome do metodo>
+	public String retornarMontadora() {
+		return montadora;
+	}
+	public void preencherMontadora(String param) {
+		montadora=param.toUpperCase();
+	}
+	public void preencherModelo(String param) {
+		modelo=param.toUpperCase();
+	}
+	public String retornarModelo() {
+		return modelo;
+	}
+	public void preencherVelocidadeMaxima(float param) {
+		if (param>0) {
+		velocidadeMaxima=param;
+		}
+	}
+	public float retornarVelocidadeMaxima() {
+		return velocidadeMaxima;
+	}
+	public void preencherValor(float param) {
+		if (param>0) {
+			valor=param;
+		}
+	}
+	public float retornarValor() {
+		return valor;
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

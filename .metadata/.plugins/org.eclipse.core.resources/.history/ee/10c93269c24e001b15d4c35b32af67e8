@@ -1,0 +1,35 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposDados {
+
+	public static void main(String[] args) {
+		
+		String nome=JOptionPane.showInputDialog("Digite o seu nome");
+		int idade=JOptionPane.showInputDialog("Digite a idade");
+		double altura=1.65;
+		System.out.println("nome..: " + nome);
+		System.out.println("idade.: " + idade);
+		System.out.println("altura:" + altura);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

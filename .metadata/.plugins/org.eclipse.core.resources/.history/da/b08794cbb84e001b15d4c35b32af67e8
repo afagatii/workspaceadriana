@@ -1,0 +1,28 @@
+package variaveis;
+
+public class Carrinho {
+
+	public static void main(String[] args) {
+		
+		System.out.print("nome do produto=" + carrinho);
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

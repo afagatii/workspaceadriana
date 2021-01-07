@@ -1,0 +1,27 @@
+package variaveis;
+
+public class Carrinho {
+
+	public static void main(String[] args) {
+		
+		String nome="marmitas";
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

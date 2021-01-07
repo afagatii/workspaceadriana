@@ -1,0 +1,40 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisaoComposta {
+
+	public static void main(String[] args) {
+		String produto = JOptionPane.showInputDialog("produto:").toUpperCase();
+		int qtde = Integer.parseInt(JOptionPane.showInputDialog("qtde"));
+		float valor = Float.parseFloat(JOptionPane.showInputDialog("valorUnitario"));
+		
+		if (qtde>=20 ) {
+			valor=valor *(float) 0.88;
+		}else if (qtde>=10 && qtde<=20) {
+			valor=valor *(float) 0.90;
+		}else if (qtde>=5 && qtde<=9){
+			valor=valor*(float)0.95;
+		}
+		System.out.println("O valor do produto:" + produto +"é:R$" + valor);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

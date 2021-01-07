@@ -1,0 +1,35 @@
+package variaveis;
+
+public class Carrinho {
+
+	public static void main(String[] args) {
+		
+	String produto="churros";
+	String categoria="doces";
+	double valor="10.50";
+	int qtde="5";
+	double imposto="5";
+	
+	System.out.println();
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

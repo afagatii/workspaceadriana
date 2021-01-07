@@ -1,0 +1,52 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ListaExercicio1 {
+
+	public static void main(String[] args) {
+	
+			dia=Integer.parseInt(JOptionPane.showInputDialog("Entre com o dia"));
+			while (dia>31) {
+				dia=JOptionPane.showInputDialog("Digite a data novamente");
+			} 	
+			mes=Integer.parseInt(JOptionPane.showInputDialog("Entre com o mes"));
+			while (mes>12) {
+				mes=JOptionPane.showInputDialog("Digite o mês novamente");
+			}
+			ano=Integer.parseInt(JOptionPane.showInputDialog("Entre com o ano"));
+			while (ano.length!=4) {
+				ano=JOptionPane.showInputDialog("Digite o ano novamente:"); 
+			}
+			System.out.println("dia" +dia "Mes" +mes "ano" +ano);
+			
+				
+			/*String nome = JOptionPane.showInputDialog("Digite o nome:").toUpperCase();
+			while (nome.length() <5 || nome.length() >20) {
+			    nome=JOptionPane.showInputDialog("Digite o nome novamente").toUpperCase(); 
+			}
+			short idade = Short.parseShort(JOptionPane.showInputDialog("Idade"));
+			while (idade<18 || idade >80) {
+				idade=Short.parseShort(JOptionPane.showInputDialog("Idade deve estar entre 18 e 80 anos"));	
+			}
+			System.out.println("Nome completo:"+ nome);	
+			System.out.println("Idade:"+ idade);	
+			/*System.out.println("Nome completo:"+ nome);	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

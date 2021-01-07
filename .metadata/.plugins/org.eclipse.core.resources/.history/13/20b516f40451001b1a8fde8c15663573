@@ -1,0 +1,32 @@
+package br.com.concessionariaxyz.aplicacao;
+
+import br.com.concessionariaxyz.modelo.Veiculo;
+
+public class AplicacaoVeiculo {
+
+	public static void main(String[] args) {
+		
+		Veiculo objeto = new Veiculo();
+		objeto.preencherMontadora("fiaT");
+		System.out.println(objeto.retornarMontadora());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
